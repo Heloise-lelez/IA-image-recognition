@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metazoa AI – Détection d'animaux</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="glass-container">
+      <img
+        src="assets/flying_duck.png"
+        alt="Flying Duck"
+        class="duck-container"
+      />
+      <header>
+        <h1>Metazoa AI</h1>
+        <p>Détection automatique d'animaux via IA</p>
+      </header>
+
+      <main>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+          <label for="file">Choisissez une image :</label><br />
+          <input
+            type="file"
+            name="file"
+            id="file"
+            accept="image/*"
+            required
+          /><br />
+        </form>
+      </main>
+
+      <footer>&copy; 2025 Metazoa AI — Tous droits réservés.</footer>
+    </div>
+  </body>
+</html>
