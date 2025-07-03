@@ -1,6 +1,6 @@
-# 🐾 Anatidae AI
+# 🐾 Metazoa AI
 
-Anatidae AI est une application web combinant une interface HTML/CSS simple et une intelligence artificielle basée sur PyTorch pour détecter automatiquement les races de canards présents sur une photo. Le projet vise à rendre l’identification d'un canard accessible à tous, depuis un navigateur.
+Metazoa AI est une application web combinant une interface HTML/CSS simple et une intelligence artificielle basée sur PyTorch pour détecter automatiquement les races de canards présents sur une photo. Le projet vise à rendre l’identification d'un canard accessible à tous, depuis un navigateur.
 
 ## 🚀 Fonctionnalités
 
@@ -35,7 +35,3 @@ source venv/bin/activate
 ### 3. Installer les dépendances
 
 `pip install -r requirements.txt`
-
-### 4. Lancer l'application
-
-`python app.py`
